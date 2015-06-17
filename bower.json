@@ -1,0 +1,20 @@
+{
+  "name": "d3-demos",
+  "version": "0.0.0",
+  "authors": [
+    "Code Whisperer <daniel@danielstern.ca>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.9.3",
+    "d3": "~3.5.5",
+    "jquery": "~2.1.4"
+  }
+}
