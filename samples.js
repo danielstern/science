@@ -18,3 +18,6 @@ bargraph(properties
 .sort(function(a,b){return a.price - b.price}),'name','averageProbability')
 
 pie(properties,'name','price')
+
+//a new list of properties with ROI added
+properties = properties.map(function(a){a.roi = a.price / a.rent; return a});

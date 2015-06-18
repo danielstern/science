@@ -69,9 +69,12 @@ function bargraph(data,key,value) {
        })
       .attr("x", function(d) { return x(d[key]); })
       .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(d[value]); })
-      .attr("height", function(d) { return height - y(d[value]); })
+      .attr("height",0)
+      .attr("y",height)
       .on('click',function(d){console.info(d)})
+    .transition()
+      .attr("height", function(d) { return height - y(d[value]); })
+      .attr("y", function(d) { return y(d[value]); })
 
   function type(d) {
     d[value] = +d[value];
