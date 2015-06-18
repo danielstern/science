@@ -1,0 +1,502 @@
+Nat,Joh,Hoe,Sin,Pokemon,HP,Atk,Def,SA,SD,Spd,Total,Type I,Type II,Ability I,Ability II,EV Worth,Gender,Evolves From,Evolves At/By,Evolves Into
+1,226,,,Bulbasaur,45,49,49,65,65,45,318,Grass,Poison,Overgrow,,1 SA,M (87.5%),--,Lv. 16,Ivysaur
+2,227,,,Ivysaur,60,62,63,80,80,60,405,Grass,Poison,Overgrow,,"1 SA, 1 SD",M (87.5%),Bulbasaur,Lv. 32,Venusaur
+3,228,,,Venusaur,80,82,83,100,100,80,525,Grass,Poison,Overgrow,,"2 SA, 1 SD",M (87.5%),Ivysaur,--,--
+4,229,,,Charmander,39,52,43,60,50,65,309,Fire,,Blaze,,1 Spd,M (87.5%),--,Lv. 16,Charmeleon
+5,230,,,Charmeleon,58,64,58,80,65,80,405,Fire,,Blaze,,"1 SA, 1 Spd",M (87.5%),Charmander,Lv. 36,Charizard
+6,231,,,Charizard,78,84,78,109,85,100,534,Fire,Flying,Blaze,,3 SA,M (87.5%),Charmeleon,--,--
+7,232,,,Squirtle,44,48,65,60,54,43,314,Water,,Torrent,,1 Def,M (87.5%),--,Lv. 16,Wartortle
+8,233,,,Wartortle,59,63,80,65,80,58,405,Water,,Torrent,,"1 Def, 1 SD",M (87.5%),Squirtle,Lv. 36,Blastoise
+9,234,,,Blastoise,79,83,100,85,105,78,530,Water,,Torrent,,3 SD,M (87.5%),Wartortle,--,--
+10,24,,,Caterpie,45,30,35,20,20,45,195,Bug,,Shield Dust,,1 HP,50/50,--,Lv. 7,Metapod
+11,25,,,Metapod,50,20,55,25,25,30,205,Bug,,Shed Skin,,1 Def,50/50,Caterpie,Lv. 10,Butterfree
+12,26,,,Butterfree,60,45,50,80,80,70,385,Bug,Flying,Compoundeyes,,"2 SA, 1 SD",50/50,Metapod,--,--
+13,27,,,Weedle,40,35,30,20,20,50,195,Bug,Poison,Shield Dust,,1 Spd,50/50,--,Lv. 7,Kakuna
+14,28,,,Kakuna,45,25,50,25,25,35,205,Bug,Poison,Shed Skin,,2 Def,50/50,Weedle,Lv. 10,Beedrill
+15,29,,,Beedrill,65,80,40,40,80,75,380,Bug,Poison,Swarm,,"2 Atk, 1 SD",50/50,Kakuna,--,--
+16,10,,,Pidgey,40,45,40,35,35,56,251,Normal,Flying,Keen Eye,Tangled Feet,1 Spd,50/50,--,Lv. 18,Pidgeotto
+17,11,,,Pidgeotto,63,60,55,50,50,71,349,Normal,Flying,Keen Eye,Tangled Feet,2 Spd,50/50,Pidgey,Lv. 36,Pidgeot
+18,12,,,Pidgeot,83,80,75,70,70,91,469,Normal,Flying,Keen Eye,Tangled Feet,3 Spd,50/50,Pidgeotto,--,--
+19,17,,,Rattata,30,56,35,25,35,72,253,Normal,,Run Away,Guts,1 Spd,50/50,--,Lv. 20,Ratticate
+20,18,,,Raticate,55,81,60,50,70,97,413,Normal,,Run Away,Guts,2 Spd,50/50,Rattata,--,--
+21,13,,,Spearow,40,60,30,31,31,70,262,Normal,Flying,Keen Eye,,1 Spd,50/50,--,Lv. 20,Fearow
+22,14,,,Fearow,65,90,65,61,61,100,442,Normal,Flying,Keen Eye,,2 Spd,50/50,Spearow,--,--
+23,50,,,Ekans,30,60,44,40,54,55,283,Poison,,Intimidate,Shed Skin,1 Atk,50/50,--,Lv. 22,Arbok
+24,51,,,Arbok,60,85,69,65,79,80,438,Poison,,Intimidate,Shed Skin,2 Atk,50/50,Ekans,--,--
+25,22,156,104,Pikachu,35,55,30,50,40,90,300,Electric,,Static,,2 Spd,50/50,Pichu,Thunderstone,Raichu
+26,23,157,105,Raichu,60,90,55,90,80,100,475,Electric,,Static,,3 Spd,50/50,Pikachu,--,--
+27,48,112,,Sandshrew,50,75,85,20,30,40,300,Ground,,Sand Veil,,1 Def,50/50,--,Lv. 22,Sandslash
+28,49,113,,Sandslash,75,100,110,45,55,65,450,Ground,,Sand Veil,,2 Def,50/50,Sandshrew,--,--
+29,95,,,Nidoran (?),55,47,52,40,40,41,275,Poison,,Poison Point,Rivalry,1 HP,F (100%),--,Lv. 16,Nidorina
+30,96,,,Nidorina,70,62,67,55,55,56,365,Poison,,Poison Point,Rivalry,2 HP,F (100%),Nidoran (?),Moon Stone,Nidoqueen
+31,97,,,Nidoqueen,90,82,87,75,85,76,495,Poison,Ground,Poison Point,Rivalry,3 HP,F (100%),Nidorina,--,--
+32,98,,,Nidoran (?),46,57,40,40,40,50,273,Poison,,Poison Point,Rivalry,1 Atk,M (100%),--,Lv. 16,Nidorino
+33,99,,,Nidorino,61,72,57,55,55,65,365,Poison,,Poison Point,Rivalry,2 Atk,M (100%),Nidoran (?),Moon Stone,Nidoking
+34,100,,,Nidoking,81,92,77,85,75,85,495,Poison,Ground,Poison Point,Rivalry,3 Atk,M (100%),Nidorino,--,--
+35,41,,100,Clefairy,70,45,48,60,65,35,323,Normal,,Cute Charm,Magic Guard,2 HP,F (75%),Cleffa,Moon Stone,Clefable
+36,42,,101,Clefable,95,70,73,85,90,60,473,Normal,,Cute Charm,Magic Guard,3 HP,F (75%),Clefairy,--,--
+37,125,153,,Vulpix,38,41,40,50,65,65,299,Fire,,Flash Fire,,1 Spd,F (75%),--,Fire Stone,Ninetales
+38,126,154,,Ninetales,73,76,75,81,100,100,505,Fire,,Flash Fire,,"1 SD, 1 Spd",F (75%),Vulpix,--,--
+39,44,138,,Jigglypuff,115,45,20,45,25,20,270,Normal,,Cute Charm,,2 HP,F (75%),Igglybuff,Moon Stone,Wigglytuff
+40,45,139,,Wigglytuff,140,70,45,75,50,45,425,Normal,,Cute Charm,,3 HP,F (75%),Jigglypuff,--,--
+41,37,63,28,Zubat,40,45,35,30,40,55,245,Poison,Flying,Inner Focus,,1 Spd,50/50,--,Lv. 22,Golbat
+42,38,64,29,Golbat,75,80,70,65,75,90,455,Poison,Flying,Inner Focus,,2 Spd,50/50,Zubat,Friendship,Crobat
+43,83,88,,Oddish,45,50,55,75,65,30,320,Grass,Poison,Chlorophyll,,1 SA,50/50,--,Lv. 21,Gloom
+44,84,89,,Gloom,60,65,70,85,75,40,395,Grass,Poison,Chlorophyll,,"2 SA, 1 SD",50/50,Oddish,Leaf Stone / Sun Stone,Vileplume/Bellossom
+45,85,90,,Vileplume,75,80,85,100,90,50,480,Grass,Poison,Chlorophyll,,3 SA,50/50,Gloom,--,--
+46,70,,,Paras,35,70,55,45,55,25,285,Bug,Grass,Effect Spore,Dry Skin,1 Atk,50/50,--,Lv. 24,Parasect
+47,71,,,Parasect,60,95,80,60,80,30,405,Bug,Grass,Effect Spore,Dry Skin,"2 Atk, 1 Def",50/50,Paras,--,--
+48,108,,,Venonat,60,55,50,40,55,45,305,Bug,Poison,Compoundeyes,Tinted Lens,1 SD,50/50,--,Lv. 31,Venemoth
+49,109,,,Venomoth,70,65,60,90,75,90,450,Bug,Poison,Shield Dust,Tinted Lens,"1 SA, 1 Spd",50/50,Venonat,--,--
+50,132,,,Diglett,10,55,25,35,45,95,265,Ground,,Sand Veil,Arena Trap,1 Spd,50/50,--,Lv. 26,Dugtrio
+51,133,,,Dugtrio,35,80,50,50,70,120,405,Ground,,Sand Veil,Arena Trap,2 Spd,50/50,Diglett,--,--
+52,136,,,Meowth,40,45,35,40,40,90,290,Normal,,Pickup,Technician,1 Spd,50/50,--,Lv. 28,Persian
+53,137,,,Persian,65,70,60,65,65,115,440,Normal,,Limber,Technician,2 Spd,50/50,Meowth,--,--
+54,138,158,43,Psyduck,50,52,48,65,50,55,320,Water,,Damp,Cloud Nine,1 SA,50/50,--,Lv. 33,Golduck
+55,139,159,44,Golduck,80,82,78,95,80,85,500,Water,,Damp,Cloud Nine,2 SA,50/50,Psyduck,--,--
+56,134,,,Mankey,40,80,35,35,45,70,305,Fighting,,Vital Spirit,Anger Point,1 Atk,50/50,--,Lv. 28,Primeape
+57,135,,,Primeape,65,105,60,60,70,95,455,Fighting,,Vital Spirit,Anger Point,2 Atk,50/50,Mankey,--,--
+58,127,,,Growlithe,55,70,45,70,50,60,350,Fire,,Intimidate,Flash Fire,1 Atk,M (75%),--,Fire Stone,Arcanine
+59,128,,,Arcanine,90,110,80,100,80,95,555,Fire,,Intimidate,Flash Fire,2 Atk,M (75%),Growlithe,--,--
+60,72,,,Poliwag,40,50,40,40,40,90,300,Water,,Water Absorb,Damp,1 Spd,50/50,--,Lv. 25,Poliwhirl
+61,73,,,Poliwhirl,65,65,65,50,50,90,385,Water,,Water Absorb,Damp,2 Spd,50/50,Poliwag,"Water Stone, trade with kings rock","Poliwrath, Politoed"
+62,74,,,Poliwrath,90,85,95,70,90,70,500,Water,Fighting,Water Absorb,Damp,3 Def,50/50,Poliwhirl,--,--
+63,89,39,20,Abra,25,20,15,105,55,90,310,Psychic,,Synchronize,Inner Focus,1 SA,M (75%),--,Lv. 16,Kadabra
+64,90,40,21,Kadabra,40,35,30,120,70,105,400,Psychic,,Synchronize,Inner Focus,2 SA,M (75%),Kadabra,Trade,Alakazam
+65,91,41,22,Alakazam,55,50,45,135,85,120,490,Psychic,,Synchronize,Inner Focus,3 SA,M (75%),Alakazam,--,--
+66,140,73,40,Machop,70,80,50,35,35,35,305,Fighting,,Guts,No Guard,1 Atk,M (75%),--,Lv. 28,Machoke
+67,141,74,41,Machoke,80,100,70,50,60,45,405,Fighting,,Guts,No Guard,2 Atk,M (75%),Machop,Trade,Machamp
+68,142,75,42,Machamp,90,130,80,65,85,55,505,Fighting,,Guts,No Guard,3 Atk,M (75%),Machoke,--,--
+69,64,,,Bellsprout,50,75,35,70,30,40,300,Grass,Poison,Chlorophyll,,1 Atk,50/50,--,Lv. 21,Weepinbell
+70,65,,,Weepinbell,65,90,50,85,45,55,390,Grass,Poison,Chlorophyll,,2 Atk,50/50,Bellsprout,Leaf Stone,Victreebell
+71,66,,,Victreebel,80,105,65,100,60,70,480,Grass,Poison,Chlorophyll,,3 Atk,50/50,Weepinbell,--,--
+72,162,66,136,Tentacool,40,40,35,50,100,70,335,Water,Poison,Clear Body,Liquid Ooze,1 SD,50/50,--,Lv. 30,Tentacruel
+73,163,67,137,Tentacruel,80,70,65,80,120,100,515,Water,Poison,Clear Body,Liquid Ooze,2 SD,50/50,Tentacool,--,--
+74,34,57,31,Geodude,40,80,100,30,30,20,300,Rock,Ground,Rock Head,Sturdy,1 Def,50/50,--,Lv. 25,Graveller
+75,35,58,32,Graveler,55,95,115,45,45,35,390,Rock,Ground,Rock Head,Sturdy,2 Def,50/50,Geodude,Trade,Golem
+76,36,59,33,Golem,80,110,130,55,65,45,485,Rock,Ground,Rock Head,Sturdy,3 Def,50/50,Graveller,--,--
+77,201,,77,Ponyta,50,85,55,65,65,90,410,Fire,,Run Away,Flash Fire,1 Spd,50/50,--,Lv. 40,Rapidash
+78,202,,78,Rapidash,65,100,70,80,80,105,500,Fire,,Run Away,Flash Fire,1 Spd,50/50,Ponyta,--,--
+79,80,,,Slowpoke,90,65,65,40,40,15,315,Water,Psychic,Oblivious,Own Tempo,1 HP,50/50,--,Lv. 37,Slowbro
+80,81,,,Slowbro,95,75,110,100,80,30,490,Water,Psychic,Oblivious,Own Tempo,2 Def,50/50,Slowpoke,--,Sloking
+81,118,82,178,Magnemite,25,35,70,95,55,45,325,Electric,Steel,Magnet Pull,Sturdy,1 SA,None,--,Lv. 30,Magneton
+82,119,83,179,Magneton,50,60,95,120,70,70,465,Electric,Steel,Magnet Pull,Sturdy,2 SA,None,Magnemite,Level up in Mt. Coronet,Magnezone
+83,158,,,Farfetch'd,52,65,55,58,62,60,352,Normal,Flying,Keen Eye,Inner Focus,1 Atk,50/50,--,--,--
+84,199,92,,Doduo,35,85,45,35,35,75,310,Normal,Flying,Run Away,Early Bird,1 Atk,50/50,--,Lv. 31,Dodrio
+85,200,93,,Dodrio,60,110,70,60,60,100,460,Normal,Flying,Run Away,Early Bird,2 Atk,50/50,Doduo,--,--
+86,176,,,Seel,65,45,55,45,70,45,325,Water,,Thick Fat,Hydration,1 SD,50/50,--,Lv. 34,Dewgong
+87,177,,,Dewgong,90,70,80,70,95,70,475,Water,Ice,Thick Fat,Hydration,2 SD,50/50,Seel,--,--
+88,116,106,,Grimer,80,80,50,40,50,25,325,Poison,,Stench,Sticky Hold,1 HP,50/50,--,Lv. 38,Muk
+89,117,107,,Muk,105,105,75,65,100,50,500,Poison,,Stench,Sticky Hold,"1 HP, 1 Atk",50/50,Grimer,--,--
+90,169,,,Shellder,30,65,100,45,25,40,305,Water,,Shell Armor,Skill Link,1 Def,50/50,--,Water Stone,Cloyster
+91,170,,,Cloyster,50,90,180,85,45,70,520,Water,Ice,Shell Armor,Skill Link,2 Def,50/50,Shellder,--,--
+92,58,,69,Gastly,30,35,30,100,35,80,310,Ghost,Poison,Levitate,,1 SA,50/50,--,Lv. 25,Haunter
+93,59,,70,Haunter,45,50,45,115,55,95,405,Ghost,Poison,Levitate,,2 SA,50/50,Gastly,Trade,Gengar
+94,60,,71,Gengar,60,65,60,130,75,110,500,Ghost,Poison,Levitate,,3 SA,50/50,Haunter,--,--
+95,62,,34,Onix,35,45,160,30,45,70,385,Rock,Ground,Rock Head,Sturdy,1 Def,50/50,--,Trade with Metal Coat,Steelix
+96,87,,,Drowzee,60,48,45,43,90,42,328,Psychic,,Insomnia,Forewarn,1 SD,50/50,--,Lv. 26,Hypno
+97,88,,,Hypno,85,73,70,73,115,67,483,Psychic,,Insomnia,Forewarn,2 SD,50/50,Drowzee,--,--
+98,164,,,Krabby,30,105,90,25,25,50,325,Water,,Hyper Cutter,Shell Armor,1 Atk,50/50,--,Lv. 28,Kingler
+99,165,,,Kingler,55,130,115,50,50,75,475,Water,,Hyper Cutter,Shell Armor,2 Atk,50/50,Krabby,--,--
+100,120,84,,Voltorb,40,30,50,55,55,100,330,Electric,,Soundproof,Static,1 Spd,None,--,Lv. 30,Electrode
+101,121,85,,Electrode,60,50,70,80,80,140,480,Electric,,Soundproof,Static,2 Spd,None,Voltorb,--,--
+102,104,,,Exeggcute,60,40,80,60,45,40,325,Grass,Psychic,Chlorophyll,,1 Def,50/50,--,Leaf Stone,Exeggutor
+103,105,,,Exeggutor,95,95,85,125,65,55,520,Grass,Psychic,Chlorophyll,,2 SA,50/50,Exeggcute,--,--
+104,203,,,Cubone,50,50,95,40,50,35,320,Ground,,Rock Head,Lightningrod,1 Def,50/50,--,Lv. 28,Marowak
+105,204,,,Marowak,60,80,110,50,80,45,425,Ground,,Rock Head,Lightningrod,2 Def,50/50,Cubone,--,--
+106,144,,,Hitmonlee,50,120,53,35,110,87,455,Fighting,,Limber,Reckless,2 Atk,M (100%),Tyrogue,--,--
+107,145,,,Hitmonchan,50,105,79,35,110,76,455,Fighting,,Keen Eye,Iron Fist,2 SD,M (100%),Tyrogue,--,--
+108,178,,161,Lickitung,90,55,75,60,75,30,385,Normal,,Own Tempo,Oblivious,2 HP,50/50,--,Learn Rollout and level up,Lickilicky
+109,114,108,,Koffing,40,65,95,60,45,35,340,Poison,,Levitate,,1 Def,50/50,--,Lv. 35,Weezing
+110,115,109,,Weezing,65,90,120,85,70,60,490,Poison,,Levitate,,2 Def,50/50,Koffing,--,--
+111,206,169,186,Rhyhorn,80,85,95,30,30,25,345,Ground,Rock,Lightningrod,Rock Head,1 Def,50/50,--,Lv. 42,Rhydon
+112,207,170,187,Rhydon,105,130,120,45,45,40,485,Ground,Rock,Lightningrod,Rock Head,2 Atk,50/50,Rhyhorn,Trade with Protector,Rhyperior
+113,217,,97,Chansey,250,5,5,35,105,50,450,Normal,,Natural Cure,Serene Grace,2 HP,F (100%),Happiny,Friendship,Blissey
+114,179,,181,Tangela,65,55,115,100,40,60,435,Grass,,Chlorophyll,Leaf Guard,1 Def,50/50,--,Level up knowing Ancientpower,Tangrowth
+115,205,,,Kangaskhan,105,95,80,40,80,90,490,Normal,,Early Bird,Scrappy,2 HP,F (100%),--,--,--
+116,186,184,,Horsea,30,40,70,70,25,60,295,Water,,Swift Swim,Sniper,1 SA,50/50,--,Lv. 32,Seadra
+117,187,185,,Seadra,55,65,95,95,45,85,440,Water,,Poison Point,Sniper,"1 Def, 1 SA",50/50,Horsea,Trade with Dragon Scale,Kingdra
+118,78,50,78,Goldeen,45,67,60,35,50,63,320,Water,,Swift Swim,Water Veil,1 Atk,50/50,--,Lv. 33,Seaking
+119,79,51,79,Seaking,80,92,65,65,80,68,450,Water,,Swift Swim,Water Veil,2 Atk,50/50,Goldeen,--,--
+120,167,143,,Staryu,30,45,55,70,55,85,340,Water,,Illuminate,Natural Cure,1 Spd,None,--,Water Stone,Starmie
+121,168,144,,Starmie,60,75,85,100,85,115,520,Water,Psychic,Illuminate,Natural Cure,2 Spd,None,Staryu,--,--
+122,156,,95,Mr. Mime,40,45,65,100,120,90,460,Psychic,,Soundproof,Filter,2 SD,50/50,Mime Jr.,--,--
+123,110,,195,Scyther,70,110,80,55,80,105,500,Bug,Flying,Swarm,Technician,1 Atk,50/50,--,Trade w. Metal Coat,Scizor
+124,153,,,Jynx,65,50,35,115,95,95,455,Ice,Psychic,Oblivious,Forewarn,2 SA,F (100%),Smoochum,--,--
+125,155,,198,Electabuzz,65,83,57,95,85,105,490,Electric,,Static,,2 Spd,M (75%),--,Trade w. Electirizer,Electivire
+126,151,,201,Magmar,65,95,57,100,85,93,495,Fire,,Flame Body,,2 SA,M (75%),--,Trade w. Magmarizer,Magmortar
+127,112,167,,Pinsir,65,125,100,55,70,85,500,Bug,,Hyper Cutter,Mold Breaker,2 Atk,50/50,--,--,--
+128,148,,,Tauros,75,100,95,40,70,110,490,Normal,,Intimidate,Anger Point,"1 Atk, 1 Spd",M (100%),--,--,--
+129,76,52,23,Magikarp,20,10,55,15,20,80,200,Water,,Swift Swim,,1 Spd,50/50,--,Lv. 20,Gyarados
+130,77,53,24,Gyarados,95,125,79,60,100,81,540,Water,Flying,Intimidate,,2 Atk,50/50,Magikarp,--,--
+131,219,,,Lapras,130,85,80,85,95,60,535,Water,Ice,Water Absorb,Shell Armor,2 HP,50/50,--,--,--
+132,92,,,Ditto,48,48,48,48,48,48,288,Normal,,Limber,,1 HP,None,--,--,--
+133,180,,163,Eevee,55,55,50,45,65,55,325,Normal,,Run Away,Adaptability,1 SD,M (87.5%),--,"Water Stone, Thunder Stone, Fire Stone, Friendship (day, night), Level up in eterna forest, Level up at ice rock (Rt.217)","Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon"
+134,181,,164,Vaporeon,130,65,60,110,95,65,525,Water,,Water Absorb,,2 HP,M (87.5%),Eevee,--,--
+135,182,,165,Jolteon,65,65,60,110,95,130,525,Electric,,Volt Absorb,,2 Spd,M (87.5%),Eevee,--,--
+136,183,,166,Flareon,65,130,60,95,110,65,525,Fire,,Flash Fire,,2 Atk,M (87.5%),Eevee,--,--
+137,215,,192,Porygon,65,60,70,85,75,40,395,Normal,,Trace,Download,1 SA,None,--,Trade w. Upgrade,Porygon 2
+138,220,,,Omanyte,35,40,100,90,55,35,355,Rock,Water,Swift Swim,Shell Armor,1 Def,M (87.5%),--,Lv. 40,Omastar
+139,221,,,Omastar,70,60,125,115,70,55,495,Rock,Water,Swift Swim,Shell Armor,2 Def,M (87.5%),Omanyte,--,--
+140,222,,,Kabuto,30,80,90,55,45,55,355,Rock,Water,Swift Swim,Battle Armor,1 Def,M (87.5%),--,Lv. 40,Kabutops
+141,223,,,Kabutops,60,115,105,65,70,80,495,Rock,Water,Swift Swim,Battle Armor,2 Atk,M (87.5%),Kabuto,--,--
+142,224,,,Aerodactyl,80,105,65,60,75,130,515,Rock,Flying,Rock Head,Pressure,2 Spd,M (87.5%),--,--,--
+143,225,,113,Snorlax,160,110,65,65,110,30,540,Normal,,Immunity,Thick Fat,2 HP,M (87.5%),Munchlax,--,--
+144,235,,,Articuno,90,85,100,95,125,85,580,Ice,Flying,Pressure,,3 SD,None,--,--,--
+145,236,,,Zapdos,90,90,85,125,90,100,580,Electric,Flying,Pressure,,3 SA,None,--,--,--
+146,237,,,Moltres,90,100,90,125,85,90,580,Fire,Flying,Pressure,,3 SA,None,--,--,--
+147,241,,,Dratini,41,64,45,50,50,50,300,Dragon,,Shed Skin,,1 Atk,50/50,--,Lv. 30,Dragonair
+148,242,,,Dragonair,61,84,65,70,70,70,420,Dragon,,Shed Skin,,2 Atk,50/50,Dratini,Lv. 55,Dragonite
+149,243,,,Dragonite,91,134,95,100,100,80,600,Dragon,Flying,Inner Focus,,3 Atk,50/50,Dragonair,--,--
+150,249,,,Mewtwo,106,110,90,154,90,130,680,Psychic,,Pressure,,3 SA,None,--,--,--
+151,250,,,Mew,100,100,100,100,100,100,600,Psychic,,Synchronize,,3 HP,None,--,--,--
+152,1,,,Chikorita,45,49,65,49,65,45,318,Grass,,Overgrow,,1 SD,M (87.5%),--,Lv. 16,Bayleef
+153,2,,,Bayleef,60,62,80,63,80,69,414,Grass,,Overgrow,,"1 Def, 1 SD",M (87.5%),Chikorita,Lv. 32,Cynaquil
+154,3,,,Meganium,80,82,100,83,100,80,525,Grass,,Overgrow,,"1 Def, 2 SD",M (87.5%),Bayleaf,--,--
+155,4,,,Cyndaquil,39,52,43,60,50,65,309,Fire,,Blaze,,1 Spd,M (87.5%),--,Lv. 14,Quilava
+156,5,,,Quilava,58,64,58,80,65,80,405,Fire,,Blaze,,"1 SA, 1 Spd",M (87.5%),Cyndaquil,Lv. 36,Typhlosion
+157,6,,,Typhlosion,78,84,78,109,85,100,534,Fire,,Blaze,,3 SA,M (87.5%),Quilava,--,--
+158,7,,,Totodile,50,65,64,44,48,43,314,Water,,Torrent,,1 Atk,M (87.5%),--,Lv. 18,Croconaw
+159,8,,,Croconaw,65,80,80,59,63,58,405,Water,,Torrent,,"1 Atk, 1 Def",M (87.5%),Totodile,Lv. 30,Feraligatr
+160,9,,,Feraligatr,85,105,100,79,83,78,530,Water,,Torrent,,"2 Atk, 1 Def",M (87.5%),Croconaw,--,--
+161,19,,,Sentret,35,46,34,35,45,20,215,Normal,,Run Away,Keen Eye,1 Atk,50/50,--,Lv. 15,Furret
+162,20,,,Furret,85,76,64,45,55,90,415,Normal,,Run Away,Keen Eye,2 Spd,50/50,Sentret,--,--
+163,15,,106,Hoothoot,60,30,30,36,56,50,262,Normal,Flying,Insomnia,Keen Eye,1 HP,50/50,--,Lv. 20,Noctowl
+164,16,,107,Noctowl,100,50,50,76,96,70,442,Normal,Flying,Insomnia,Keen Eye,2 HP,50/50,Hoothoot,--,--
+165,30,,,Ledyba,40,20,30,40,80,55,265,Bug,Flying,Swarm,Early Bird,1 SD,50/50,--,Lv. 18,Ledian
+166,31,,,Ledian,55,35,50,55,110,85,390,Bug,Flying,Swarm,Early Bird,2 SD,50/50,Ledyba,--,--
+167,32,,,Spinarak,40,60,40,40,40,30,250,Bug,Poison,Swarm,Insomnia,1 Atk,50/50,--,Lv. 22,Ariados
+168,33,,,Ariados,70,90,70,60,60,40,390,Bug,Poison,Swarm,Insomnia,2 Atk,50/50,Spinarak,--,--
+169,39,65,30,Crobat,85,90,80,70,80,130,535,Poison,Flying,Inner Focus,,3 Spd,50/50,Golbat,--,--
+170,174,181,,Chinchou,75,38,38,56,56,67,330,Water,Electric,Volt Absorb,Illuminate,1 HP,50/50,--,Lv. 27,Lanturn
+171,175,182,,Lanturn,125,58,58,76,76,67,460,Water,Electric,Volt Absorb,Illuminate,2 HP,50/50,Chinchou,--,--
+172,21,155,103,Pichu,20,40,15,35,35,60,205,Electric,,Static,,1 Spd,50/50,--,Friendship,Pikachu
+173,40,,99,Cleffa,50,25,28,45,55,15,218,Normal,,Cute Charm,Magic Guard,2 SD,F (75%),--,Friendship,Clefairy
+174,43,137,,Igglybuff,90,30,15,40,20,15,210,Normal,,Cute Charm,,1 HP,F (75%),--,Friendship,Jigglypuff
+175,46,,173,Togepi,35,20,65,40,65,20,245,Normal,,Hustle,Serene Grace,1 SD,M (87.5%),--,Friendship,Togetic
+176,47,,174,Togetic,55,40,85,80,105,40,405,Normal,Flying,Hustle,Serene Grace,2 SD,M (87.5%),Togepi,Shiny Stone,Togekiss
+177,159,162,,Natu,40,50,45,70,45,70,320,Psychic,Flying,Synchronize,Early Bird,1 SA,50/50,--,Lv. 25,Xatu
+178,160,163,,Xatu,65,75,70,95,70,95,470,Psychic,Flying,Synchronize,Early Bird,"1 SA, 1 Spd",50/50,Natu,--,--
+179,53,,,Mareep,55,40,40,65,45,35,280,Electric,,Static,,1 SA,50/50,--,Lv. 15,Flaafy
+180,54,,,Flaaffy,70,55,55,80,60,45,365,Electric,,Static,,2 SA,50/50,Mareep,Lv. 30,Ampharados
+181,55,,,Ampharos,90,75,75,115,90,55,500,Electric,,Static,,3 SA,50/50,Flaafy,--,--
+182,86,91,,Bellossom,75,80,85,90,100,50,480,Grass,,Chlorophyll,,3 SD,50/50,Gloom,--,--
+183,130,55,125,Marill,70,20,50,20,50,40,250,Water,,Thick Fat,Huge Power,2 HP,50/50,Azurill,Lv. 18,Azumarill
+184,131,56,126,Azumarill,100,50,80,50,80,50,410,Water,,Thick Fat,Huge Power,3 HP,50/50,Marill,--,--
+185,106,,,Sudowoodo,70,100,115,30,65,30,410,Rock,,Sturdy,Rock Head,2 Def,50/50,Bonsly,--,--
+186,75,,,Politoed,90,75,75,90,100,70,500,Water,,Water Absorb,Damp,3 SD,50/50,Polywhirl,--,--
+187,67,,,Hoppip,35,35,40,35,55,50,250,Grass,Flying,Chlorophyll,Leaf Guard,1 SD,50/50,--,Lv. 18,Skiploom
+188,68,,,Skiploom,55,45,50,45,65,80,340,Grass,Flying,Chlorophyll,Leaf Guard,2 Spd,50/50,Hoppip,Lv. 27,Jumpluff
+189,69,,,Jumpluff,75,55,70,55,85,110,450,Grass,Flying,Chlorophyll,Leaf Guard,3 Spd,50/50,Skiploom,--,--
+190,122,,63,Aipom,55,70,55,40,55,85,360,Normal,,Run Away,Pickup,1 Spd,50/50,--,Teach Double Hit and Level Up,Ambipom
+191,102,,,Sunkern,30,30,30,30,30,30,180,Grass,,Chlorophyll,Solar Power,1 SA,50/50,--,,Sunflora
+192,103,,,Sunflora,75,75,55,105,85,30,425,Grass,,Chlorophyll,Solar Power,2 SA,50/50,Sunkern,--,--
+193,101,,183,Yanma,65,65,45,75,45,95,390,Bug,Flying,Speed Boost,Compoundeyes,2 Spd,50/50,--,Teach AncientPower and Level Up,Yanmega
+194,56,,117,Wooper,55,45,45,25,25,15,210,Water,Ground,Damp,Water Absorb,1 HP,50/50,--,Lv. 20,Quagsire
+195,57,,118,Quagsire,95,85,85,65,65,35,430,Water,Ground,Damp,Water Absorb,2 HP,50/50,Wooper,--,--
+196,184,,167,Espeon,65,65,60,130,95,110,525,Psychic,,Synchronize,,2 SA,M (87.5%),Eevee,--,--
+197,185,,168,Umbreon,95,65,110,60,130,65,525,Dark,,Synchronize,,2 SD,M (87.5%),Eevee,--,--
+198,208,,74,Murkrow,60,85,42,85,42,91,405,Dark,Flying,Insomnia,Super Luck,1 Spd,50/50,--,Dusk Stone,Honchkrow
+199,82,,,Slowking,95,75,80,100,110,30,490,Water,Psychic,Oblivious,Own Tempo,3 SD,50/50,Slowbro,--,--
+200,214,,72,Misdreavus,60,60,60,85,85,85,435,Ghost,,Levitate,,1 SD,50/50,--,Dusk Stone,Mismagius
+201,61,,114,Unown,48,72,48,72,48,48,336,Psychic,,Levitate,,"1 Atk, 1 SA",None,--,--,--
+202,107,161,,Wobbuffet,190,33,58,33,58,33,405,Psychic,,Shadow Tag,,2 HP,50/50,Wynaut,--,--
+203,147,164,121,Girafarig,70,80,65,90,65,85,455,Normal,Psychic,Inner Focus,Early Bird,2 SA,50/50,--,--,--
+204,93,,,Pineco,50,65,90,35,35,15,290,Bug,,Sturdy,,1 Def,50/50,--,Lv. 31,Forretress
+205,94,,,Forretress,75,90,140,60,60,40,465,Bug,Steel,Sturdy,,2 Def,50/50,Pineco,--,--
+206,52,,,Dunsparce,100,70,70,65,65,45,415,Normal,,Serene Grace,Run Away,1 HP,50/50,--,--,--
+207,189,,153,Gligar,65,75,105,35,65,85,430,Ground,Flying,Hyper Cutter,Sand Veil,1 Def,50/50,--,"Give Razor Fang, Level at night",Gliscor
+208,63,,35,Steelix,75,85,200,55,65,30,510,Steel,Ground,Rock Head,Sturdy,2 Def,50/50,Onix,--,--
+209,123,,,Snubbull,60,80,50,40,40,30,300,Normal,,Intimidate,Run Away,1 Atk,F (75%),--,Lv. 23,Granbull
+210,124,,,Granbull,90,120,75,60,60,45,450,Normal,,Intimidate,Quick Feet,2 Atk,F (75%),Snubbull,--,--
+211,161,,,Qwilfish,65,95,75,55,55,85,430,Water,Poison,Poison Point,Swift Swim,1 Atk,50/50,--,--,--
+212,111,,196,Scizor,70,130,100,55,80,65,500,Bug,Steel,Swarm,Technician,2 Atk,50/50,Scyther,--,--
+213,166,,,Shuckle,20,10,230,10,230,5,505,Bug,Rock,Sturdy,Gluttony,"1 Def, 1 SD",50/50,--,--,--
+214,113,168,62,Heracross,80,125,75,40,95,85,500,Bug,Fighting,Swarm,Guts,2 Atk,50/50,--,--,--
+215,213,,144,Sneasel,55,95,55,35,75,115,430,Dark,Ice,Inner Focus,Keen Eye,1 Spd,50/50,--,"Give Razor Claw, Level at night",Weavile
+216,193,,,Teddiursa,60,80,50,50,50,40,330,Normal,,Pickup,Quick Feet,1 Atk,50/50,--,Lv. 30,Ursaring
+217,194,,,Ursaring,90,130,75,75,75,55,500,Normal,,Guts,Quick Feet,2 Atk,50/50,Teddiursa,--,--
+218,211,103,,Slugma,40,40,40,70,40,20,250,Fire,,Magma Armor,Flame Body,1 SA,50/50,--,Lv. 38,Magcargo
+219,212,104,,Magcargo,50,50,120,80,80,30,410,Fire,Rock,Magma Armor,Flame Body,2 Def,50/50,Slugma,--,--
+220,191,,203,Swinub,50,50,40,30,30,50,250,Ice,Ground,Oblivious,Snow Cloak,1 Atk,50/50,--,Lv. 33,Piloswine
+221,192,,204,Piloswine,100,100,80,60,60,50,450,Ice,Ground,Oblivious,Snow Cloak,"1 HP, 1 Atk",50/50,Swinub,Teach AncientPower and Level Up,Mamoswine
+222,171,180,,Corsola,55,55,85,65,85,35,380,Water,Rock,Hustle,Natural Cure,"1 Def, 1 SD",F (75%),--,--,--
+223,172,,132,Remoraid,35,65,35,65,35,65,300,Water,,Hustle,Sniper,1 SA,50/50,--,Lv. 25,Octillery
+224,173,,133,Octillery,75,105,75,105,75,45,480,Water,,Suction Cups,Sniper,"1 Atk, 1 SA",50/50,Remoraid,--,--
+225,190,,,Delibird,45,55,45,65,45,75,330,Ice,Flying,Vital Spirit,Hustle,1 Spd,50/50,--,--,--
+226,197,,141,Mantine,65,40,70,80,140,70,465,Water,Flying,Swift Swim,Water Absorb,2 SD,50/50,Mantyke,--,--
+227,198,115,,Skarmory,65,80,140,40,70,70,465,Steel,Flying,Keen Eye,Sturdy,2 Def,50/50,--,--,--
+228,209,,176,Houndour,45,60,30,80,50,65,330,Dark,Fire,Early Bird,Flash Fire,1 SA,50/50,--,Lv. 24,Houndoom
+229,210,,177,Houndoom,75,90,50,110,80,95,500,Dark,Fire,Early Bird,Flash Fire,2 SA,50/50,Houndour,--,--
+230,188,186,,Kingdra,75,95,95,95,95,85,540,Water,Dragon,Swift Swim,Sniper,"1 Atk, 1 SA, 1 SD",50/50,Seadra,--,--
+231,195,165,,Phanpy,90,60,60,40,40,40,330,Ground,,Pickup,,1 HP,50/50,--,Lv. 25,Donphan
+232,196,166,,Donphan,90,120,120,60,60,50,500,Ground,,Sturdy,,"1 Atk, 1 Def",50/50,Phanphy,--,--
+233,216,,193,Porygon2,85,80,90,105,95,60,515,Normal,,Trace,Download,2 SA,None,Porygon,Trade w. Dubious Disk,Porygon z
+234,129,,,Stantler,73,95,62,85,65,85,465,Normal,,Intimidate,Frisk,1 Atk,50/50,--,--,--
+235,157,,,Smeargle,55,20,35,20,45,75,250,Normal,,Own Tempo,Technician,1 Spd,50/50,--,--,--
+236,143,,,Tyrogue,35,35,35,35,35,35,210,Fighting,,Guts,Steadfast,1Atk,M (100%),--,"Level 20 (attack =,<,> defense)","Hitmontop, Hitmonchan, Hitmonlee"
+237,146,,,Hitmontop,50,95,95,35,110,70,455,Fighting,,Intimidate,Technician,2 SD,M (100%),Tyrogue,--,--
+238,152,,,Smoochum,45,30,15,85,65,65,305,Ice,Psychic,Oblivious,Forewarn,1 SA,F (100%),--,Lv. 30,Jynx
+239,154,,197,Elekid,45,63,37,65,55,95,360,Electric,,Static,,1 Spd,M (75%),--,Lv. 30,Electabuzz
+240,150,,200,Magby,45,75,37,70,55,83,365,Fire,,Flame Body,,1 Spd,M (75%),--,Lv. 30,Magmar
+241,149,,,Miltank,95,80,105,40,70,100,490,Normal,,Thick Fat,Scrappy,2 Def,F (100%),--,--,--
+242,218,,98,Blissey,255,10,10,75,135,55,540,Normal,,Natural Cure,Serene Grace,3 HP,F (100%),Chansey,--,--
+243,238,,,Raikou,90,85,75,115,100,115,580,Electric,,Pressure,,"1 SA, 2 Spd",None,--,--,--
+244,239,,,Entei,115,115,85,90,75,100,580,Fire,,Pressure,,"1 HP, 2 Atk",None,--,--,--
+245,240,,,Suicune,100,75,115,90,115,85,580,Water,,Pressure,,"1 Def, 2 SD",None,--,--,--
+246,244,,,Larvitar,50,64,50,45,50,41,300,Rock,Ground,Guts,,1 Atk,50/50,--,Lv. 30,Pupitar
+247,245,,,Pupitar,70,84,70,65,70,51,410,Rock,Ground,Shed Skin,,2 Atk,50/50,Larvitar,Lv. 55,Tyranitar
+248,246,,,Tyranitar,100,134,110,95,100,61,600,Rock,Dark,Sand Stream,,3 Atk,50/50,Pupitar,--,--
+249,247,,,Lugia,106,90,130,90,154,110,680,Psychic,Flying,Pressure,,3 SD,None,--,--,--
+250,248,,,Ho-oh,106,130,90,110,154,90,680,Fire,Flying,Pressure,,3 SD,None,--,--,--
+251,251,,,Celebi,100,100,100,100,100,100,600,Psychic,Grass,Natural Cure,,3 HP,None,--,--,--
+252,,1,,Treecko,40,45,35,65,55,70,310,Grass,,Overgrow,,1 Spd,M (87.5%),--,Lv. 16,Grovyle
+253,,2,,Grovyle,50,65,45,85,65,95,405,Grass,,Overgrow,,2 Spd,M (87.5%),Treecko,Lv. 32,Sceptile
+254,,3,,Sceptile,70,85,65,105,85,120,530,Grass,,Overgrow,,3 Spd,M (87.5%),Grovyle,--,--
+255,,4,,Torchic,45,60,40,70,50,45,310,Fire,,Blaze,,1 SA,M (87.5%),--,Lv. 16,Combusken
+256,,5,,Combusken,60,85,60,85,60,55,405,Fire,Fighting,Blaze,,"1 Atk, 1 SA",M (87.5%),Torchic,Lv. 36,Blaziken
+257,,6,,Blaziken,80,120,70,110,70,80,530,Fire,Fighting,Blaze,,3 Atk,M (87.5%),Combusken,--,--
+258,,7,,Mudkip,50,70,50,50,50,40,310,Water,,Torrent,,1 Atk,M (87.5%),--,Lv. 16,Marshtomp
+259,,8,,Marshtomp,70,85,70,60,70,50,405,Water,Ground,Torrent,,2 Atk,M (87.5%),Mudkip,Lv. 36,Swampert
+260,,9,,Swampert,100,110,90,85,90,60,535,Water,Ground,Torrent,,3 Atk,M (87.5%),Marshtomp,--,--
+261,,10,,Poochyena,35,55,35,30,30,35,220,Dark,,Run Away,Quick Feet,1 Atk,50/50,--,Lv. 18,Mightyena
+262,,11,,Mightyena,70,90,70,60,60,70,420,Dark,,Intimidate,Quick Feet,2 Atk,50/50,Poochyena,--,--
+263,,12,,Zigzagoon,38,30,41,30,41,60,240,Normal,,Pickup,Gluttony,1 Spd,50/50,--,Lv. 20,Linoone
+264,,13,,Linoone,78,70,61,50,61,100,420,Normal,,Pickup,Gluttony,2 Spd,50/50,Zigzagoon,--,--
+265,,14,48,Wurmple,45,45,35,20,30,20,195,Bug,,Shield Dust,,1 HP,50/50,--,Lv. 7 (depends on personality value),"Silcoon, Cascoon"
+266,,15,49,Silcoon,50,35,55,25,25,15,205,Bug,,Shed Skin,,2 Def,50/50,Wurmple,Lv. 10,Beautifly
+267,,16,50,Beautifly,60,70,50,90,50,65,385,Bug,Flying,Swarm,,3 SA,50/50,Silcoon,--,--
+268,,17,51,Cascoon,50,35,55,25,25,15,205,Bug,,Shed Skin,,2 Def,50/50,Wurmple,Lv. 10,Dustox
+269,,18,52,Dustox,60,50,70,50,90,65,385,Bug,Poison,Shield Dust,,3 SD,50/50,Cascoon,--,--
+270,,19,,Lotad,40,30,30,40,50,30,220,Water,Grass,Swift Swim,Rain Dish,1 SD,50/50,--,Lv. 14,Lombre
+271,,20,,Lombre,60,50,50,60,70,50,340,Water,Grass,Swift Swim,Rain Dish,2 SD,50/50,Lotad,Water Stone,Ludicolo
+272,,21,,Ludicolo,80,70,70,90,100,70,480,Water,Grass,Swift Swim,Rain Dish,3 SD,50/50,Lombre,--,--
+273,,22,,Seedot,40,40,50,30,30,30,220,Grass,,Chlorophyll,Early Bird,1 Def,50/50,--,Lv. 14,Nuzleaf
+274,,23,,Nuzleaf,70,70,40,60,40,60,340,Grass,Dark,Chlorophyll,Early Bird,2 Atk,50/50,Seedot,Leaf Stone,Shiftry
+275,,24,,Shiftry,90,100,60,90,60,80,480,Grass,Dark,Chlorophyll,Early Bird,3 Atk,50/50,Nuzleaf,--,--
+276,,25,,Taillow,40,55,30,30,30,85,270,Normal,Flying,Guts,,1 Spd,50/50,--,Lv. 22,Swellow
+277,,26,,Swellow,60,85,60,50,50,125,430,Normal,Flying,Guts,,2 Spd,50/50,Taillow,--,--
+278,,27,119,Wingull,40,30,30,55,30,85,270,Water,Flying,Keen Eye,,1 Spd,50/50,--,Lv. 25,Pelipper
+279,,28,120,Pelipper,60,50,100,85,70,65,430,Water,Flying,Keen Eye,,2 Def,50/50,Wingull,--,--
+280,,29,157,Ralts,28,25,25,45,35,40,198,Psychic,,Synchronize,Trace,1 SA,50/50,--,Lv. 20,Kirlia
+281,,30,158,Kirlia,38,35,35,65,55,50,278,Psychic,,Synchronize,Trace,2 SA,50/50,Ralts,"Lv. 30, Dawn stone (M)","Gardevoir, Gallade"
+282,,31,159,Gardevoir,68,65,65,125,115,80,518,Psychic,,Synchronize,Trace,3 SA,50/50,Kirlia,--,--
+283,,32,,Surskit,40,30,32,50,52,65,269,Bug,Water,Swift Swim,,1 Spd,50/50,--,Lv. 22,Masquerain
+284,,33,,Masquerain,70,60,62,80,82,60,414,Bug,Flying,Intimidate,,"1 SA, 1 SD",50/50,Surskit,--,--
+285,,34,,Shroomish,60,40,60,40,60,35,295,Grass,,Effect Spore,Poison Heal,1 HP,50/50,--,Lv. 18,Breloom
+286,,35,,Breloom,60,130,80,60,60,70,460,Grass,Fighting,Effect Spore,Poison Heal,2 Atk,50/50,Shroomish,--,--
+287,,36,,Slakoth,60,60,60,35,35,30,280,Normal,,Truant,,1 HP,50/50,--,Lv. 18,Vigoroth
+288,,37,,Vigoroth,80,80,80,55,55,90,440,Normal,,Vital Spirit,,2 Spd,50/50,Slakoth,Lv. 36,Slaking
+289,,38,,Slaking,150,160,100,95,65,100,670,Normal,,Truant,,3 HP,50/50,Vigoroth,--,--
+290,,42,,Nincada,31,45,90,30,30,40,266,Bug,Ground,Compoundeyes,,1 Def,50/50,--,"Lv. 20, Free space in party","Ninjask, Shedinja"
+291,,43,,Ninjask,61,90,45,50,50,160,456,Bug,Flying,Speed Boost,,2 Spd,50/50,Nincada,--,--
+292,,44,,Shedinja,1,90,45,30,30,40,236,Bug,Ghost,Wonder Guard,,2 HP,50/50,Nincada,--,--
+293,,45,,Whismur,64,51,23,51,23,28,240,Normal,,Soundproof,,1 HP,50/50,--,Lv. 20,Loudred
+294,,46,,Loudred,84,71,43,71,43,48,360,Normal,,Soundproof,,2 HP,50/50,Whismur,Lv. 40,Exploud
+295,,47,,Exploud,104,91,63,91,63,68,480,Normal,,Soundproof,,3 HP,50/50,Loudred,--,--
+296,,48,,Makuhita,72,60,30,20,30,25,237,Fighting,,Thick Fat,Guts,1 HP,M (75%),--,Lv. 24,Hariyama
+297,,49,,Hariyama,144,120,60,40,60,50,474,Fighting,,Thick Fat,Guts,2 HP,M (75%),Makuhita,--,--
+298,,54,124,Azurill,50,20,40,20,40,20,190,Normal,,Thick Fat,Huge Power,1 HP,M (75%),--,Friendship,Marill
+299,,60,155,Nosepass,30,45,135,45,90,30,375,Rock,,Sturdy,Magnet Pull,1 Def,50/50,--,Level in Mt. Coronet,Probopass
+300,,61,,Skitty,50,45,45,35,35,50,260,Normal,,Cute Charm,Normalize,1 Spd,F (75%),--,Moon Stone,Delcatty
+301,,62,,Delcatty,70,65,65,55,55,70,380,Normal,,Cute Charm,Normalize,"1 HP, 1 Spd",F (75%),Skitty,--,--
+302,,68,,Sableye,50,75,75,65,65,50,380,Dark,Ghost,Keen Eye,Stall,"1 Atk, 1 Def",50/50,--,--,--
+303,,69,,Mawile,50,85,85,55,55,50,380,Steel,,Hyper Cutter,Intimidate,"1 Atk, 1 Def",50/50,--,--,--
+304,,70,,Aron,50,70,100,40,40,30,330,Steel,Rock,Sturdy,Rock Head,1 Def,50/50,--,Lv. 32,Lairon
+305,,71,,Lairon,60,90,140,50,50,40,430,Steel,Rock,Sturdy,Rock Head,2 Def,50/50,Aron,Lv. 42,Aggron
+306,,72,,Aggron,70,110,180,60,60,50,530,Steel,Rock,Sturdy,Rock Head,3 Def,50/50,Lairon,--,--
+307,,76,86,Meditite,30,40,55,40,55,60,280,Fighting,Psychic,Pure Power,,1 Spd,50/50,--,Lv. 37,Medicham
+308,,77,87,Medicham,60,60,75,60,75,80,410,Fighting,Psychic,Pure Power,,2 Spd,50/50,Meditite,--,--
+309,,78,,Electrike,40,45,40,65,40,65,295,Electric,,Static,Lightningrod,1 Spd,50/50,--,Lv. 26,Manectric
+310,,79,,Manectric,70,75,60,105,60,105,475,Electric,,Static,Lightningrod,2 Spd,50/50,Electrike,--,--
+311,,80,,Plusle,60,50,40,85,75,95,405,Electric,,Plus,,1 Spd,50/50,--,--,--
+312,,81,,Minun,60,40,50,75,85,95,405,Electric,,Minus,,1 Spd,50/50,--,--,--
+313,,86,,Volbeat,65,73,55,47,75,85,400,Bug,,Illuminate,Swarm,1 Spd,M (100%),--,--,--
+314,,87,,Illumise,65,47,55,73,75,85,400,Bug,,Oblivious,Tinted Lens,1 Spd,F (100%),--,--,--
+315,,94,26,Roselia,50,60,45,100,80,65,400,Grass,Poison,Natural Cure,Poison Point,2 SA,50/50,Budew,Shiny Stone,Roserade
+316,,95,,Gulpin,70,43,53,43,53,40,302,Poison,,Liquid Ooze,Sticky Hold,1 HP,50/50,--,Lv. 26,Swalot
+317,,96,,Swalot,100,73,83,73,83,55,467,Poison,,Liquid Ooze,Sticky Hold,2 HP,50/50,Gulpin,--,--
+318,,97,,Carvanha,45,90,20,65,20,65,305,Water,Dark,Rough Skin,,1 Atk,50/50,--,Lv. 30,Sharpedo
+319,,98,,Sharpedo,70,120,40,95,40,95,460,Water,Dark,Rough Skin,,2 Atk,50/50,Carvahna,--,--
+320,,99,,Wailmer,130,70,35,70,35,60,400,Water,,Water Veil,Oblivious,1 HP,50/50,--,Lv. 40,Wailord
+321,,100,,Wailord,170,90,45,90,45,60,500,Water,,Water Veil,Oblivious,2 HP,50/50,Wailmer,--,--
+322,,101,,Numel,60,60,40,65,45,35,305,Fire,Ground,Oblivious,Simple,1 SA,50/50,--,Lv. 33,Camerupt
+323,,102,,Camerupt,70,100,70,105,75,40,460,Fire,Ground,Magma Armor,Solid Rock,"1 Atk, 1 SA",50/50,Numel,--,--
+324,,105,,Torkoal,70,85,140,85,70,20,470,Fire,,White Smoke,,2 Def,50/50,--,--,--
+325,,110,,Spoink,60,25,35,70,80,60,330,Psychic,,Thick Fat,Own Tempo,1 SD,50/50,--,Lv. 32,Grumpig
+326,,111,,Grumpig,80,45,65,90,110,80,470,Psychic,,Thick Fat,Own Tempo,2 SD,50/50,--,--,--
+327,,114,,Spinda,60,60,60,60,60,60,360,Normal,,Own Tempo,Tangled Feet,1 SA,50/50,--,--,--
+328,,116,,Trapinch,45,100,45,45,45,10,290,Ground,,Hyper Cutter,Arena Trap,1 Atk,50/50,--,Lv. 35,Vibrava
+329,,117,,Vibrava,50,70,50,50,50,70,340,Ground,Dragon,Levitate,,"1 Atk, 1 Spd",50/50,Trapinch,Lv. 45,Flygon
+330,,118,,Flygon,80,100,80,80,80,100,520,Ground,Dragon,Levitate,,"1 Atk, 2 Spd",50/50,Vibrava,--,--
+331,,119,,Cacnea,50,85,40,85,40,35,335,Grass,,Sand Veil,,1 SA,50/50,--,Lv. 32,Cacturne
+332,,120,,Cacturne,70,115,60,115,60,55,475,Grass,Dark,Sand Veil,,"1 Atk, 1 SA",50/50,Cacnea,--,--
+333,,121,171,Swablu,45,40,60,40,75,50,310,Normal,Flying,Natural Cure,,1 SD,50/50,--,Lv. 35,Altaria
+334,,122,172,Altaria,75,70,90,70,105,80,490,Dragon,Flying,Natural Cure,,2 SD,50/50,Swablu,--,--
+335,,123,,Zangoose,73,115,60,60,60,90,458,Normal,,Immunity,,2 Atk,50/50,--,--,--
+336,,124,,Seviper,73,100,60,100,60,65,458,Poison,,Shed Skin,,"1 Atk, 1 SA",50/50,--,--,--
+337,,125,,Lunatone,70,55,65,95,85,70,440,Rock,Psychic,Levitate,,2 SA,None,--,--,--
+338,,126,,Solrock,70,95,85,55,65,70,440,Rock,Psychic,Levitate,,2 Atk,None,--,--,--
+339,,127,80,Barboach,50,48,43,46,41,60,288,Water,Ground,Oblivious,Anticipate,1 HP,50/50,--,Lv. 30,Whiscash
+340,,128,81,Whiscash,110,78,73,76,71,60,468,Water,Ground,Oblivious,Anticipate,2 HP,50/50,Barboach,--,--
+341,,129,,Corphish,43,80,65,50,35,35,308,Water,,Hyper Cutter,Shell Armor,1 Atk,50/50,--,Lv. 30,Crawdaunt
+342,,130,,Crawdaunt,63,120,85,90,55,55,468,Water,Dark,Hyper Cutter,Shell Armor,2 Atk,50/50,Corphish,--,--
+343,,131,,Baltoy,40,40,55,40,70,55,300,Ground,Psychic,Levitate,,1 SD,None,--,Lv. 36,Claydol
+344,,132,,Claydol,60,70,105,70,120,75,500,Ground,Psychic,Levitate,,2 SD,None,Baltoy,--,--
+345,,133,,Lileep,66,41,77,61,87,23,355,Rock,Grass,Suction Cups,,1 SD,M (87.5%),--,Lv. 40,Cradily
+346,,134,,Cradily,86,81,97,81,107,43,495,Rock,Grass,Suction Cups,,2 SD,M (87.5%),Lileep,--,--
+347,,135,,Anorith,45,95,50,40,50,75,355,Rock,Bug,Battle Armor,,1 Atk,M (87.5%),--,Lv. 40,Armaldp
+348,,136,,Armaldo,75,125,100,70,80,45,495,Rock,Bug,Battle Armor,,2 Atk,M (87.5%),Anorith,--,--
+349,,140,138,Feebas,20,15,20,10,55,80,200,Water,,Swift Swim,,1 Spd,50/50,--,Level with Max Beauty,Milotic
+350,,141,139,Milotic,95,60,79,100,125,81,540,Water,,Marvel Scale,,2 SD,50/50,Feebas,--,--
+351,,142,,Castform,70,70,70,70,70,70,420,Normal,,Forecast,,1 HP,50/50,--,--,--
+352,,145,,Kecleon,60,90,70,60,120,40,440,Normal,,Color Change,,1 SD,50/50,--,--,--
+353,,146,,Shuppet,44,75,35,63,33,45,295,Ghost,,Insomnia,Frisk,1 Atk,50/50,--,Lv. 37,Banette
+354,,147,,Banette,64,115,65,83,63,65,455,Ghost,,Insomnia,Frisk,2 Atk,50/50,Shuppet,--,--
+355,,148,189,Duskull,20,40,90,30,90,25,295,Ghost,,Levitate,,1 SD,50/50,--,Lv. 37,Dusclops
+356,,149,190,Dusclops,40,70,130,60,130,25,455,Ghost,,Pressure,,"1 Def, 1 SD",50/50,Duskull,Trade w. Reaper Cloth,Dusknoir
+357,,150,185,Tropius,99,68,83,72,87,51,460,Grass,Flying,Chlorophyll,Solar Power,2 HP,50/50,--,--,--
+358,,151,83,Chimecho,65,50,70,95,80,65,425,Psychic,,Levitate,,"1 SA, 1 SD",50/50,Chingling,--,--
+359,,152,209,Absol,65,130,60,75,60,75,465,Dark,,Pressure,Super Luck,2 Atk,50/50,--,--,--
+360,,160,,Wynaut,95,23,48,23,48,23,260,Psychic,,Shadow Tag,,1 HP,50/50,--,Lv. 15,Wobbuffet
+361,,171,206,Snorunt,50,50,50,50,50,50,300,Ice,,Inner Focus,Ice Body,1 HP,50/50,--,"Lv. 42, Dawn Stone (F)","Glalie, Froslass"
+362,,172,207,Glalie,80,80,80,80,80,80,480,Ice,,Inner Focus,Ice Body,2 HP,50/50,Snorunt,--,--
+363,,173,,Spheal,70,40,50,55,50,25,290,Ice,Water,Thick Fat,Ice Body,1 HP,50/50,--,Lv. 32,Sealeo
+364,,174,,Sealeo,90,60,70,75,70,45,410,Ice,Water,Thick Fat,Ice Body,2 HP,50/50,Spheal,Lv. 44,Walrein
+365,,175,,Walrein,110,80,90,95,90,65,530,Ice,Water,Thick Fat,Ice Body,3 HP,50/50,Sealeo,--,--
+366,,176,,Clamperl,35,64,85,74,55,32,345,Water,,Shell Armor,,1 Def,50/50,--,"Trade w. DeepSeaTooth, DeepSeaScale","Huntail, Gorebyss"
+367,,177,,Huntail,55,104,105,94,75,52,485,Water,,Swift Swim,,"1 Atk, 1 Def",50/50,Clampearl,--,--
+368,,178,,Gorebyss,55,84,105,114,75,52,485,Water,,Swift Swim,,2 SA,50/50,Clampearl,--,--
+369,,179,,Relicanth,100,90,130,45,65,55,485,Water,Rock,Swift Swim,Rock Head,"1 HP, 1 Def",M (87.5%),--,--,--
+370,,183,,Luvdisc,43,30,55,40,65,97,330,Water,,Swift Swim,,1 Spd,F (75%),--,--,--
+371,,187,,Bagon,45,75,60,40,30,50,300,Dragon,,Rock Head,,1 Atk,50/50,--,Lv. 30,Shelgon
+372,,188,,Shelgon,65,95,100,60,50,50,420,Dragon,,Rock Head,,2 Def,50/50,Bagon,Lv. 50,Salamence
+373,,189,,Salamence,95,135,80,110,80,100,600,Dragon,Flying,Intimidate,,3 Atk,50/50,Shelgon,--,--
+374,,190,,Beldum,40,55,80,35,60,30,300,Steel,Psychic,Clear Body,,1 Def,None,--,Lv. 20,Metang
+375,,191,,Metang,60,75,100,55,80,50,420,Steel,Psychic,Clear Body,,2 Def,None,Beldum,Lv. 45,Metagross
+376,,192,,Metagross,80,135,130,95,90,70,600,Steel,Psychic,Clear Body,,3 Def,None,Metang,--,--
+377,,193,,Regirock,80,100,200,50,100,50,580,Rock,,Clear Body,,3 Def,None,--,--,--
+378,,194,,Regice,80,50,100,100,200,50,580,Ice,,Clear Body,,3 SD,None,--,--,--
+379,,195,,Registeel,80,75,150,75,150,50,580,Steel,,Clear Body,,"2 Def, 1 SD",None,--,--,--
+380,,196,,Latias,80,80,90,110,130,110,600,Dragon,Psychic,Levitate,,3 SD,F (100%),--,--,--
+381,,197,,Latios,80,90,80,130,110,110,600,Dragon,Psychic,Levitate,,3 SA,M (100%),--,--,--
+382,,198,,Kyogre,100,100,90,150,140,90,670,Water,,Drizzle,,3 SA,None,--,--,--
+383,,199,,Groudon,100,150,140,100,90,90,670,Ground,,Drought,,3 Atk,None,--,--,--
+384,,200,,Rayquaza,105,150,90,150,90,95,680,Dragon,Flying,Air Lock,,"2 Atk, 1 SA",None,--,--,--
+385,,201,,Jirachi,100,100,100,100,100,100,600,Steel,Psychic,Serene Grace,,3 HP,None,--,--,--
+386,,202,,Deoxys (N),50,150,50,150,50,150,600,Psychic,,Pressure,,"1 Atk, 1 SA, 1 Spd",None,--,--,--
+386,,202,,Deoxys (A),50,180,20,180,20,150,600,Psychic,,Pressure,,"1 Atk, 1 SA, 1 Spd",None,--,--,--
+386,,202,,Deoxys (D),50,70,160,70,160,90,600,Psychic,,Pressure,,"1 Atk, 1 SA, 1 Spd",None,--,--,--
+386,,202,,Deoxys (S),50,95,90,95,90,180,600,Psychic,,Pressure,,"1 Atk, 1 SA, 1 Spd",None,--,--,--
+387,,,1,Turtwig,55,68,64,45,55,31,318,Grass,,Overgrow,,1 Atk,M (87.5%),--,Lv. 18,Grotle
+388,,,2,Grotle,75,89,85,55,65,36,405,Grass,,Overgrow,,"1 Atk, 1 Def",M (87.5%),Turtwig,Lv. 32,Torterra
+389,,,3,Torterra,95,109,105,75,85,56,525,Grass,Ground,Overgrow,,"2 Atk, 1 Def",M (87.5%),Grotle,--,--
+390,,,4,Chimchar,44,58,44,58,44,61,309,Fire,,Blaze,,1 Spd,M (87.5%),--,Lv. 14,Monferno
+391,,,5,Monferno,64,78,52,78,52,81,405,Fire,Fighting,Blaze,,"1 Spd, 1 SA",M (87.5%),Chimchar,Lv. 36,Infernape
+392,,,6,Infernape,76,104,71,104,71,108,534,Fire,Fighting,Blaze,,"1 Atk, 1 SA, 1 Spd",M (87.5%),Monferno,--,--
+393,,,7,Piplup,53,51,53,61,56,40,314,Water,,Torrent,,1 SA,M (87.5%),--,Lv. 16,Prinplup
+394,,,8,Prinplup,64,66,68,81,76,50,405,Water,,Torrent,,2 SA,M (87.5%),Piplup,Lv. 36,Empoleon
+395,,,9,Empoleon,84,86,88,111,101,60,530,Water,Steel,Torrent,,3 SA,M (87.5%),Prinplup,--,--
+396,,,10,Starly,40,55,30,30,30,60,245,Normal,Flying,Keen Eye,,1 Spd,50/50,--,Lv. 14,Staravia
+397,,,11,Staravia,55,75,50,40,40,80,340,Normal,Flying,Intimidate,,2 Spd,50/50,Starly,Lv. 34,Staraptor
+398,,,12,Staraptor,85,120,70,50,50,100,475,Normal,Flying,Intimidate,,3 Atk,50/50,Staravia,--,--
+399,,,13,Bidoof,59,45,40,35,40,31,250,Normal,,Simple,Unaware,1 HP,50/50,--,Lv. 15,Dbibarel
+400,,,14,Bibarel,79,85,60,60,71,55,410,Normal,Water,Simple,Unaware,2 Atk,50/50,Bidoof,--,--
+401,,,15,Kricketot,37,25,41,25,41,25,194,Bug,,Shed Skin,,1 Def,50/50,--,Lv. 10,Kricketune
+402,,,16,Kricketune,77,85,51,55,51,65,384,Bug,,Swarm,,2 Atk,50/50,Kricketot,--,--
+403,,,17,Shinx,45,65,34,40,34,45,263,Electric,,Rivalry,Intimidate,1Atk,50/50,--,Lv. 15,Luxio
+404,,,18,Luxio,60,85,49,60,49,60,363,Electric,,Rivalry,Intimidate,2 Atk,50/50,Shinx,Lv. 30,Luxray
+405,,,19,Luxray,80,120,79,95,79,70,523,Electric,,Rivalry,Intimidate,3 Atk,50/50,Luxio,--,--
+406,,,25,Budew,40,30,35,50,70,55,280,Grass,Poison,Natural Cure,Poison Point,1 SA,50/50,--,Friendship (day),Roselia
+407,,,27,Roserade,60,70,55,125,105,90,505,Grass,Poison,Natural Cure,Poison Point,3 SA,50/50,Roselia,--,--
+408,,,36,Cranidos,67,125,40,30,30,58,350,Rock,,Mold Breaker,,1 Atk,M (87.5%),--,Lv. 30,Ramparados
+409,,,37,Rampardos,97,165,60,65,50,58,495,Rock,,Mold Breaker,,2 Atk,M (87.5%),Cranidos,--,--
+410,,,38,Shieldon,30,42,118,42,88,30,350,Rock,Steel,Sturdy,,1 Def,M (87.5%),--,Lv. 30,Bastiodon
+411,,,39,Bastiodon,60,52,168,47,138,30,495,Rock,Steel,Sturdy,,2 Def,M (87.5%),Shiledon,--,--
+412,,,45,Burmy,40,29,45,29,45,36,224,Bug,,Shed Skin,,1 SD,50/50,--,"Lv. 20 (F w. Plant/Sandy/Trash Cloak, M)","Wormadam, Mothim"
+413,,,46,Wormadam (P),60,59,85,79,105,36,424,Bug,Grass,Anticipate,,2 SD,F (100%),Burmy,--,--
+413,,,46,Wormadam (S),60,79,105,59,85,36,424,Bug,Ground,Anticipate,,2 SD,F (100%),Burmy,--,--
+413,,,46,Wormadam (T),60,69,95,69,95,36,424,Bug,Steel,Anticipate,,2 SD,F (100%),Burmy,--,--
+414,,,47,Mothim,70,94,50,94,50,66,424,Bug,Flying,Swarm,,"1 Atk, 1 SA",M (100%),Burmy,--,--
+415,,,53,Combee,30,30,42,30,42,70,244,Bug,Flying,Honey Gather,,1 Spd,M (87.5%),--,Lv. 21 (F),Vespiquen
+416,,,54,Vespiquen,70,80,102,80,102,40,474,Bug,Flying,Pressure,,"1 Def, 1 SD",F (100%),Combee,--,--
+417,,,55,Pachirisu,60,45,70,45,90,95,405,Electric,,Run Away,Pickup,1 Spd,50/50,--,--,--
+418,,,56,Buizel,55,65,35,60,30,85,330,Water,,Swift Swim,,1 Spd,50/50,--,Lv. 26,Floatzel
+419,,,57,Floatzel,85,105,55,85,50,115,495,Water,,Swift Swim,,2 Spd,50/50,Buizel,--,--
+420,,,58,Cherubi,45,35,45,62,53,35,275,Grass,,Chlorophyll,,1 SA,50/50,--,Lv. 25,Cherrim
+421,,,59,Cherrim,70,60,70,87,78,85,450,Grass,,Flower Gift,,2 SA,50/50,Cherubi,--,--
+422,,,60,Shellos,76,48,48,57,62,34,325,Water,,Sticky Hold,Storm Drain,1 HP,50/50,--,Lv. 30,Gastrodon
+423,,,61,Gastrodon,111,83,68,92,82,39,475,Water,Ground,Sticky Hold,Storm Drain,2 HP,50/50,Shellos,--,--
+424,,,64,Ambipom,75,100,66,60,66,115,482,Normal,,Technician,Pickup,2 Spd,50/50,Aipom,--,--
+425,,,66,Drifloon,90,50,34,60,44,70,348,Ghost,Flying,Aftermath,Unburden,1 HP,50/50,--,Lv. 38,Drifblim
+426,,,67,Drifblim,150,80,44,90,54,80,498,Ghost,Flying,Aftermath,Unburden,2 HP,50/50,Drifloon,--,--
+427,,,67,Buneary,55,66,44,44,56,85,350,Normal,,Run Away,Klutz,1 Spd,50/50,--,Friendship,Lopunny
+428,,,68,Lopunny,65,76,84,54,96,105,480,Normal,,Cute Charm,Klutz,2 Spd,50/50,Buneary,--,--
+429,,,73,Mismagius,60,60,60,105,105,105,495,Ghost,,Levitate,,"1 SA, 1 SD",50/50,--,--,--
+430,,,75,Honchkrow,100,125,52,105,52,71,505,Dark,Flying,Insomnia,Super Luck,2 Atk,50/50,Murkrow,--,--
+431,,,76,Glameow,49,55,42,42,37,85,310,Normal,,Limber,Own Tempo,1 Spd,F (75%),--,Lv. 38,Purugly
+432,,,77,Purugly,71,82,64,64,59,112,452,Normal,,Thick Fat,Own Tempo,2 Spd,F (75%),Glameow,--,--
+433,,,82,Chingling,45,30,50,65,50,45,285,Psychic,,Levitate,,1 SA,50/50,--,Friendship (night),Chimeco
+434,,,84,Stunky,63,63,47,41,41,74,329,Poison,Dark,Stench,Aftermath,1 Spd,50/50,--,Lv. 34,Skuntank
+435,,,85,Skuntank,103,93,67,71,61,84,479,Poison,Dark,Stench,Aftermath,2 HP,50/50,Stunky,--,--
+436,,,88,Bronzor,57,24,86,24,86,23,300,Steel,Psychic,Levitate,Heatproof,1 Def,None,--,Lv. 33,Bronzong
+437,,,89,Bronzong,67,89,116,79,116,33,500,Steel,Psychic,Levitate,Heatproof,"1 Def, 1 SD",None,Bronzor,--,--
+438,,,92,Bonsly,50,80,95,10,45,10,290,Rock,,Sturdy,Rock Head,1 Def,50/50,--,Teach Mimic and Level Up,Sudowoodo
+439,,,94,Mime Jr.,20,25,45,70,90,60,310,Psychic,,Soundproof,Filter,1 SD,50/50,--,Teach Mimic and Level Up,Mr Mime
+440,,,96,Happiny,100,5,5,15,65,30,220,Normal,,Natural Cure,Serene Grace,1 HP,F (100%),--,Level Up w. Oval Stone (day),Chansey
+441,,,102,Chatot,76,65,45,92,42,91,411,Normal,Flying,Keen Eye,Tangled Feet,1 Atk,50/50,--,--,--
+442,,,108,Spiritomb,50,92,108,92,108,35,485,Ghost,Dark,Pressure,,"1 Def, 1 SD",50/50,--,--,--
+443,,,109,Gible,58,70,45,40,45,42,300,Dragon,Ground,Sand Veil,,1 Atk,50/50,--,Lv. 24,Gabite
+444,,,110,Gabite,68,90,65,50,55,82,410,Dragon,Ground,Sand Veil,,2 Atk,50/50,Gible,Lv. 48,Garchomp
+445,,,111,Garchomp,108,130,95,80,85,102,600,Dragon,Ground,Sand Veil,,3 Atk,50/50,Gabite,--,--
+446,,,112,Munchlax,135,85,40,40,85,5,390,Normal,,Pickup,Thick Fat,1 HP,M (87.5%),--,Friendship,Snorlax
+447,,,115,Riolu,40,70,40,35,40,60,285,Fighting,,Steadfast,Inner Focus,1 Atk,M (87.5%),--,Friendship (day),Lucario
+448,,,116,Lucario,70,110,70,115,70,90,525,Fighting,Steel,Steadfast,Inner Focus,"1 Atk, 1 SA",M (87.5%),Riolu,--,--
+449,,,122,Hippopotas,68,72,78,38,42,32,330,Ground,,Sand Stream,,1 Def,50/50,--,Lv. 34,Hippowdon
+450,,,123,Hippowdon,108,112,118,68,72,47,525,Ground,,Sand Stream,,2 Def,50/50,Hippopotas,--,--
+451,,,127,Skorupi,40,50,90,30,55,65,330,Poison,Bug,Battle Armor,Sniper,1 Def,50/50,--,Lv. 40,Drapion
+452,,,128,Drapion,70,90,110,60,75,95,500,Poison,Dark,Battle Armor,Sniper,2 Def,50/50,Skorupi,--,--
+453,,,129,Croagunk,48,61,40,61,40,50,300,Poison,Fighting,Anticipate,Dry Skin,1 Atk,50/50,--,Lv. 37,Toxicroak
+454,,,130,Toxicroak,83,106,65,86,65,85,490,Poison,Fighting,Anticipate,Dry Skin,2 Atk,50/50,Croagunk,--,--
+455,,,131,Carnivine,74,100,72,90,72,46,454,Grass,,Levitate,,2 Atk,50/50,--,--,--
+456,,,134,Finneon,49,49,56,49,61,66,330,Water,,Swift Swim,Storm Drain,1 Spd,50/50,--,Lv. 31,Lumineon
+457,,,135,Lumineon,69,69,76,69,86,91,460,Water,,Swift Swim,Storm Drain,2 Spd,50/50,Finneon,--,--
+458,,,140,Mantyke,45,20,50,60,120,50,345,Water,Flying,Swift Swim,Water Absorb,1 SD,50/50,--,Level with Remoraid in party,Mantine
+459,,,142,Snover,60,62,50,62,60,40,334,Ice,Grass,Snow Warning,,1 Atk,50/50,--,Lv. 40,Abomasnow
+460,,,143,Abomasnow,90,92,75,92,85,60,494,Ice,Grass,Snow Warning,,"1 Atk, 1 SA",50/50,Snover,--,--
+461,,,145,Weavile,70,120,65,45,85,125,510,Dark,Ice,Pressure,,"1 Atk, 1 Spd",50/50,--,--,--
+462,,,180,Magnezone,70,70,115,130,90,60,535,Electric,Steel,Magnet Pull,Sturdy,3 SA,None,Magneton,--,--
+463,,,162,Lickilicky,110,85,95,80,95,50,515,Normal,,Own Tempo,Oblivious,3 HP,50/50,Lickitung,--,--
+464,,,188,Rhyperior,115,140,130,55,55,40,535,Ground,Rock,Lightningrod,Solid Rock,3 Atk,50/50,Rhydon,--,--
+465,,,182,Tangrowth,100,100,125,110,50,50,535,Grass,,Chlorophyll,Leaf Guard,2 Def,50/50,Tangela,--,--
+466,,,199,Electivire,75,123,67,95,85,95,540,Electric,,Motor Drive,,3 Atk,M (75%),Electabuzz,--,--
+467,,,202,Magmortar,75,95,67,125,95,83,540,Fire,,Flame Body,,3 SA,M (75%),Magneton,--,--
+468,,,175,Togekiss,85,50,95,120,115,80,545,Normal,Flying,Hustle,Serene Grace,"2 SA, 1 SD",M (87.5%),Togetic,--,--
+469,,,184,Yanmega,86,76,86,116,56,95,515,Bug,Flying,Speed Boost,Tinted Lens,2 Atk,50/50,Yanma,--,--
+470,,,169,Leafeon,65,110,130,60,65,95,525,Grass,,Leaf Guard,,2 Def,M (87.5%),Eevee,--,--
+471,,,170,Glaceon,65,60,110,130,95,65,525,Ice,,Snow Cloak,,2 SA,M (87.5%),Eevee,--,--
+472,,,154,Gliscor,75,95,125,45,75,95,510,Ground,Flying,Hyper Cutter,Sand Veil,2 Def,50/50,Gligar,--,--
+473,,,205,Mamoswine,110,130,80,70,60,80,530,Ice,Ground,Oblivious,Snow Cloak,3 Atk,50/50,Piloswine,--,--
+474,,,194,Porygon-Z,85,80,70,135,75,90,535,Normal,,Adaptability,Download,3 SA,None,Porygon 2,--,--
+475,,,160,Gallade,68,125,65,65,115,80,518,Psychic,Fighting,Steadfast,,3 Atk,M (100%),Kirlia,--,--
+476,,,156,Probopass,60,55,145,75,150,40,525,Rock,Steel,Sturdy,Magnet Pull,"1 Def, 2 SD",50/50,Nosepass,--,--
+477,,,191,Dusknoir,45,100,135,65,135,45,525,Ghost,,Pressure,,"1 Def, 2 SD",50/50,Dusclops,--,--
+478,,,208,Froslass,70,80,70,80,70,110,480,Ice,Ghost,Snow Cloak,,2 Spd,F (100%),Snorunt,--,--
+479,,,152,Rotom,50,50,77,95,77,91,440,Electric,Ghost,Levitate,,"1 SA, 1 Spd",None,--,--,--
+479,,,152,Rotom (A),50,65,107,105,107,86,520,Electric,Ghost,Levitate,,"1 SA, 1 Spd",None,--,--,--
+480,,,146,Uxie,75,75,130,75,130,95,580,Psychic,,Levitate,,"2 Def, 1 SD",None,--,--,--
+481,,,147,Mesprit,80,105,105,105,105,80,580,Psychic,,Levitate,,"1 Atk, 1 SA, 1 SD",None,--,--,--
+482,,,148,Azelf,75,125,70,125,70,115,580,Psychic,,Levitate,,"2 Atk, 1 SA",None,--,--,--
+483,,,149,Dialga,100,120,120,150,100,90,680,Steel,Dragon,Pressure,,3 SA,None,--,--,--
+484,,,150,Palkia,90,120,100,150,120,100,680,Water,Dragon,Pressure,,3 SA,None,--,--,--
+485,,,,Heatran,91,90,106,130,106,77,600,Fire,Steel,Flash Fire,,3 SA,50/50,--,--,--
+486,,,,Regigigas,110,160,110,80,110,100,670,Normal,,Slow Start,,3 Atk,None,--,--,--
+487,,,210,Giratina,150,100,120,100,120,90,680,Ghost,Dragon,Pressure,,3 HP,None,--,--,--
+487,,,210,Giratina (O),150,120,100,120,100,90,680,Ghost,Dragon,Levitate,,3 HP,None,--,--,--
+488,,,,Cresselia,120,70,120,75,130,85,600,Psychic,,Levitate,,3 SD,F (100%),--,--,--
+489,,,,Phione,80,80,80,80,80,80,480,Water,,Hydration,,1 HP,None,--,--,--
+490,,,151,Manaphy,100,100,100,100,100,100,600,Water,,Hydration,,3 HP,None,--,--,--
+491,,,,Darkrai,70,90,90,135,90,125,600,Dark,,Bad Dreams,,"1 Spd, 2 SA",None,--,--,--
+492,,,,Shaymin,100,100,100,100,100,100,600,Grass,,Natural Cure,,3 HP,None,--,--,--
+492,,,,Shaymin (S),100,103,75,120,75,127,600,Grass,Flying,Serene Grace,,3 HP,None,--,--,--
+493,,,,Arceus,120,120,120,120,120,120,720,Normal,,Multitype,,3 HP,None,--,--,--
