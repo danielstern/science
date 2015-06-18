@@ -22,6 +22,49 @@
         window.draw = function(art){
             $('body').html(art);
         }
+        
+        var plan = [
+            {
+                name:"graph monopoly properties by price",
+                snippet:"bargraph(properties,'name','price')"
+            },
+            {
+                name:"add roi to the properties with a map",
+                snippet:"properties = properties.map(function(a){a.roi = a.price / a.rent; return a})"
+            },
+            {
+                name:"graph the properties and their roi",
+                snippet:"bargraph(properties,'name','roi')"
+            },
+            {
+                name:"chart the properties and their probabilities",
+                snippet:"pie(properties,'name','averageProbability')"
+            },
+            {
+                name:"filter the properties by if they have rent",
+                snippet:"houses = properties.filter( function( property ){ return property.rent })"
+            },
+            {
+                name:"chart just the houses by probability",
+                snippet:"pie(houses,'name','averageProbability')"
+            },
+            {
+                name:"try graphing just the houses by probability",
+                snippet:"bargraph(houses,'name','averageProbability')",
+                notes:"bargraph is more useful for this view"
+            },
+            {
+                name:"reduce the monopoly properties to their total cost",
+                snippet:"d3.sum(houses,function(house){return house.price})",
+            }
+        ]
+        
+        var planCurrentStep = 0;
+        function go(){
+            planCurrentStep++;
+            window.now = function(){eval(plan[planCurrentStep-1].snippet)}
+            return plan[planCurrentStep-1];
+        }
     </script>
 </head>
 <body>
