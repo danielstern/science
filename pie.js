@@ -19,6 +19,11 @@ function pie(data,key,value){
 
     // define the SHAPE of the pie pieces
     // d3.arc = shape
+
+    var initialArc = d3.svg.arc()
+        .outerRadius(1)
+        .innerRadius(10);
+
     var arc = d3.svg.arc()
         .outerRadius(radius)
         .innerRadius(radius/2);
@@ -46,9 +51,11 @@ function pie(data,key,value){
 
     // append a path element to each g tag, and make it a colorful arc
     g.append("path")
-      .attr("d", arc)
       .style("fill", function(d,i){
         return color(i);
       })
+    .attr('d',initialArc)
       .on('click',function(a,i){console.info(data[i])})
+        .transition()
+      .attr("d", arc)
 }
