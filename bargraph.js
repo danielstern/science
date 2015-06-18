@@ -1,3 +1,16 @@
+function sumString(str){
+  var tot = 0;
+  for (var a = 0; a < str.length; a++){
+    tot+= str.charCodeAt(a);
+  }
+  return tot;
+}
+
+function nameToColor(name){
+    return "#"+Math.floor(d3.scale.linear().range([0,1]).domain([0,12000])(sumString(name))*16777215).toString();
+
+}
+
 function bargraph(data,key,value) {
   var target = 'body';
 
@@ -52,6 +65,7 @@ function bargraph(data,key,value) {
       .attr('fill',function(d,i){
         
         return colors(i);
+//         return nameToColor(d[key]);
        })
       .attr("x", function(d) { return x(d[key]); })
       .attr("width", x.rangeBand())
