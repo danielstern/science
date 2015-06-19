@@ -56,9 +56,38 @@
             {
                 name:"reduce the monopoly properties to their total cost",
                 snippet:"d3.sum(houses,function(house){return house.price})",
+            },
+            {
+                name:"group by color",
+                snippet:`var nest = d3.nest()
+nest.key(function(a){return a.group})
+nest.rollup(function(group){return d3.sum(group,function(a){return a.price})})
+nest.entries(properties)
+bargraph(nest.entries(properties),'key','values');`,
+            },
+            {
+                name:"group pokemon by their Type I and reduce to mean atk",
+                snippet:`bargraph(d3.nest()
+.key(function(a){return a["Type I"]})
+.rollup(function(leaves){return d3.mean(leaves,function(a){return a.Atk})})
+.entries(pokemon),'key','values')`
+            },
+            {
+                name:"take all the bug pokemon and compare them by attack power",
+                snippet:`var bugs = pokemon.filter(function(p){return p["Type I"] == 'Bug' || p["Type II"] == 'Bug'}); bugs.sort(function(a,b){return a.Atk - b.Atk}); bargraph(bugs,'Pokemon','Atk');`
+
+
+            },
+            {
+                name:"find the pokemon with the greatest total stats",
+                snippet:"pokemon.sort(function(a,b){return b.Total - a.Total})[0]"
             }
         ]
         
+        plan.forEach(function(a){
+            a.exec = function(){eval(this.snippet)}.bind(a);
+        })
+
         var planCurrentStep = 0;
         function go(){
             planCurrentStep++;
